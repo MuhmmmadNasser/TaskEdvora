@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B451834FDD697BCBB9F3B5 /* Pods_TaskEdvora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C26076F4695F44D40A7879 /* Pods_TaskEdvora.framework */; };
+		D992F88527C77624008840F5 /* RideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992F88427C77624008840F5 /* RideCollectionViewCell.swift */; };
+		D992F88927C7B44A008840F5 /* ShowDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992F88827C7B44A008840F5 /* ShowDataViewController.swift */; };
+		D992F88B27C7B758008840F5 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992F88A27C7B758008840F5 /* Extension + UIView.swift */; };
+		D992F88D27C7BA67008840F5 /* DropShadowForImage&View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992F88C27C7BA67008840F5 /* DropShadowForImage&View.swift */; };
 		D9BB3FDB27C6668C00424A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FDA27C6668C00424A8E /* AppDelegate.swift */; };
 		D9BB3FDD27C6668C00424A8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FDC27C6668C00424A8E /* SceneDelegate.swift */; };
 		D9BB3FDF27C6668C00424A8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FDE27C6668C00424A8E /* ViewController.swift */; };
 		D9BB3FE227C6668C00424A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BB3FE027C6668C00424A8E /* Main.storyboard */; };
 		D9BB3FE427C6668D00424A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BB3FE327C6668D00424A8E /* Assets.xcassets */; };
 		D9BB3FE727C6668D00424A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BB3FE527C6668D00424A8E /* LaunchScreen.storyboard */; };
+		D9BB3FF027C6671800424A8E /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FEF27C6671800424A8E /* Ride.swift */; };
+		D9BB3FF627C667E100424A8E /* RideAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FF527C667E100424A8E /* RideAPI.swift */; };
+		D9BB3FF827C66A0C00424A8E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FF727C66A0C00424A8E /* User.swift */; };
+		D9BB3FFA27C66C8F00424A8E /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BB3FF927C66C8F00424A8E /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		566E96FE72732A92341C820C /* Pods-TaskEdvora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskEdvora.release.xcconfig"; path = "Target Support Files/Pods-TaskEdvora/Pods-TaskEdvora.release.xcconfig"; sourceTree = "<group>"; };
+		B6288360D85B270C2EC25508 /* Pods-TaskEdvora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskEdvora.debug.xcconfig"; path = "Target Support Files/Pods-TaskEdvora/Pods-TaskEdvora.debug.xcconfig"; sourceTree = "<group>"; };
+		D992F88427C77624008840F5 /* RideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCollectionViewCell.swift; sourceTree = "<group>"; };
+		D992F88827C7B44A008840F5 /* ShowDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataViewController.swift; sourceTree = "<group>"; };
+		D992F88A27C7B758008840F5 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		D992F88C27C7BA67008840F5 /* DropShadowForImage&View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropShadowForImage&View.swift"; sourceTree = "<group>"; };
 		D9BB3FD727C6668C00424A8E /* TaskEdvora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskEdvora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BB3FDA27C6668C00424A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9BB3FDC27C6668C00424A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,11 @@
 		D9BB3FE327C6668D00424A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9BB3FE627C6668D00424A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9BB3FE827C6668D00424A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BB3FEF27C6671800424A8E /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		D9BB3FF527C667E100424A8E /* RideAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideAPI.swift; sourceTree = "<group>"; };
+		D9BB3FF727C66A0C00424A8E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D9BB3FF927C66C8F00424A8E /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E0C26076F4695F44D40A7879 /* Pods_TaskEdvora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskEdvora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B451834FDD697BCBB9F3B5 /* Pods_TaskEdvora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D442BFBF4B92E8DF7275EE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6288360D85B270C2EC25508 /* Pods-TaskEdvora.debug.xcconfig */,
+				566E96FE72732A92341C820C /* Pods-TaskEdvora.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84B4707849A3D0463F94E3CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0C26076F4695F44D40A7879 /* Pods_TaskEdvora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D992F88227C775E8008840F5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D992F88427C77624008840F5 /* RideCollectionViewCell.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		D992F88327C775FC008840F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3FE027C6668C00424A8E /* Main.storyboard */,
+				D9BB3FE527C6668D00424A8E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		D9BB3FCE27C6668C00424A8E = {
 			isa = PBXGroup;
 			children = (
 				D9BB3FD927C6668C00424A8E /* TaskEdvora */,
 				D9BB3FD827C6668C00424A8E /* Products */,
+				1D442BFBF4B92E8DF7275EE7 /* Pods */,
+				84B4707849A3D0463F94E3CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,62 @@
 		D9BB3FD927C6668C00424A8E /* TaskEdvora */ = {
 			isa = PBXGroup;
 			children = (
-				D9BB3FDA27C6668C00424A8E /* AppDelegate.swift */,
-				D9BB3FDC27C6668C00424A8E /* SceneDelegate.swift */,
-				D9BB3FDE27C6668C00424A8E /* ViewController.swift */,
-				D9BB3FE027C6668C00424A8E /* Main.storyboard */,
-				D9BB3FE327C6668D00424A8E /* Assets.xcassets */,
-				D9BB3FE527C6668D00424A8E /* LaunchScreen.storyboard */,
+				D9BB3FF327C6679900424A8E /* Config */,
+				D9BB3FF427C667C900424A8E /* Services */,
+				D9BB3FEE27C6669600424A8E /* Model */,
+				D9BB3FF127C6676F00424A8E /* View */,
+				D9BB3FF227C6678A00424A8E /* Controller */,
 				D9BB3FE827C6668D00424A8E /* Info.plist */,
 			);
 			path = TaskEdvora;
+			sourceTree = "<group>";
+		};
+		D9BB3FEE27C6669600424A8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3FEF27C6671800424A8E /* Ride.swift */,
+				D992F88C27C7BA67008840F5 /* DropShadowForImage&View.swift */,
+				D9BB3FF727C66A0C00424A8E /* User.swift */,
+				D992F88A27C7B758008840F5 /* Extension + UIView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9BB3FF127C6676F00424A8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D992F88227C775E8008840F5 /* CustomView */,
+				D992F88327C775FC008840F5 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9BB3FF227C6678A00424A8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3FDE27C6668C00424A8E /* ViewController.swift */,
+				D992F88827C7B44A008840F5 /* ShowDataViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D9BB3FF327C6679900424A8E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3FDA27C6668C00424A8E /* AppDelegate.swift */,
+				D9BB3FDC27C6668C00424A8E /* SceneDelegate.swift */,
+				D9BB3FE327C6668D00424A8E /* Assets.xcassets */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D9BB3FF427C667C900424A8E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB3FF527C667E100424A8E /* RideAPI.swift */,
+				D9BB3FF927C66C8F00424A8E /* Endpoint.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9BB3FEB27C6668D00424A8E /* Build configuration list for PBXNativeTarget "TaskEdvora" */;
 			buildPhases = (
+				B8C16C98CDBBE859288EF3BB /* [CP] Check Pods Manifest.lock */,
 				D9BB3FD327C6668C00424A8E /* Sources */,
 				D9BB3FD427C6668C00424A8E /* Frameworks */,
 				D9BB3FD527C6668C00424A8E /* Resources */,
+				8B1D3AC0CD1171668FED2C86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +238,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B1D3AC0CD1171668FED2C86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskEdvora/Pods-TaskEdvora-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskEdvora/Pods-TaskEdvora-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskEdvora/Pods-TaskEdvora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C16C98CDBBE859288EF3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskEdvora-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9BB3FD327C6668C00424A8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BB3FFA27C66C8F00424A8E /* Endpoint.swift in Sources */,
+				D9BB3FF627C667E100424A8E /* RideAPI.swift in Sources */,
+				D992F88527C77624008840F5 /* RideCollectionViewCell.swift in Sources */,
 				D9BB3FDF27C6668C00424A8E /* ViewController.swift in Sources */,
+				D9BB3FF827C66A0C00424A8E /* User.swift in Sources */,
+				D9BB3FF027C6671800424A8E /* Ride.swift in Sources */,
+				D992F88B27C7B758008840F5 /* Extension + UIView.swift in Sources */,
 				D9BB3FDB27C6668C00424A8E /* AppDelegate.swift in Sources */,
+				D992F88927C7B44A008840F5 /* ShowDataViewController.swift in Sources */,
+				D992F88D27C7BA67008840F5 /* DropShadowForImage&View.swift in Sources */,
 				D9BB3FDD27C6668C00424A8E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +439,7 @@
 		};
 		D9BB3FEC27C6668D00424A8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6288360D85B270C2EC25508 /* Pods-TaskEdvora.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +459,7 @@
 		};
 		D9BB3FED27C6668D00424A8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566E96FE72732A92341C820C /* Pods-TaskEdvora.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

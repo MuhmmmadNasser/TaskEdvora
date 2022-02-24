@@ -1,0 +1,22 @@
+PODS:
+  - iOSDropDown (0.3.4)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+
+PODFILE CHECKSUM: fdde1e36328cfd6dc4223454c5ee2da913cc1e2c
+
+COCOAPODS: 1.10.2
